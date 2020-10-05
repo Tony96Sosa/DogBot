@@ -1,0 +1,28 @@
+.home-dogbot-container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.home-dogbot-content{
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home-dogbot-greeting{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: cornsilk;
+    /* background-color: aquamarine; */
+}
+.home-dogbot-greeting label{
+    margin-bottom: 10px;
+    font-weight: bold;
+}

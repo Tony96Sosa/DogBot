@@ -1,0 +1,15 @@
+.dog-container{
+    width: 100%;
+    cursor: pointer;
+}
+@media screen and (min-width: 480px) {
+    .dog-container{
+        width: 50%;
+        margin: auto;
+    }
+}
+@media screen and (min-width: 800px) {
+    .dog-container{
+        width: 25%;
+    }
+}
