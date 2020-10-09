@@ -1,0 +1,26 @@
+.user-item-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.user-item-container img{
+    height: 50px;
+    border-radius: 10px;
+}
+.user-item-messages{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.user-item-messages label{
+    margin: 0 10px 5px 0;
+    font-size: 14px;
+    color: beige;
+    background-color: cadetblue;
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    font-weight: bold;
+    box-sizing: border-box;
+}

@@ -1,0 +1,38 @@
+.chatbot-chat-input-conatiner{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.chatbot-chat-input-conatiner input{
+    width: 80%;
+    margin: auto;
+    color: beige;
+    background-color: cadetblue;
+    height: 35px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border: 1px solid #b7c4e9;
+    border-radius: 25px;
+    outline: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.chatbot-chat-input-conatiner input::placeholder{
+    color: #a1b2e4;
+}
+.chatbot-chat-input-conatiner button{
+    background-image: url("../../../assets/images/arrow-icon.png");
+    width: 35px;
+    height: 35px;
+    margin: auto;
+    border-radius: 50%;
+    border: 1px solid #432b51;
+    background-color: #432b51;
+    outline: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+    box-shadow: 2px 2px 15px 0 rgba(0,0,0,0.16);
+}
